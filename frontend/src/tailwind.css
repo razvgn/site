@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer base {
+    :root[data-theme="light"] {
+      --color-bkg: 250deg 100% 50%;
+      --color-filler: 1deg 100% 47%;
+      --color-content: 250deg 21% 100%;
+      
+      --color-accent1:  250deg 21% 45%;
+      --color-accent2:  1deg 100% 50%;
+      
+      --color-accent3:  120deg 70% 50%;
+      /* --color-bkg: 250deg 20% 99%;
+      --color-filler: 156deg 90% 99%;
+      --color-content: 217deg 32.6% 17.5%;
+      
+      --color-accent1:  214deg 60% 88%;
+      --color-accent2: 226deg 88% 70%;
+      
+      --color-accent3:  214deg 72% 83%;*/
+    }
+
+
+    :root[data-theme="dark"] {
+      --color-bkg: 250deg 100% 50%;
+      --color-filler: 1deg 100% 47%;
+      --color-content: 250deg 21% 100%;
+      
+      --color-accent1:  250deg 21% 45%;
+      --color-accent2:  1deg 100% 50%;
+      
+      --color-accent3:  120deg 70% 50%;
+        
+
+
+        /*
+
+        --color-bkg:  211deg 53% 10%;
+        --color-filler: 219deg 25%  20%;
+        --color-content: 156deg 90% 99%;
+      
+        --color-accent1: 166deg 36% 52%;
+        --color-accent2: 152deg 50% 85%;
+
+        --color-accent3:  347deg 83% 60%;     
+
+        --------------------------------------
+        --color-accent1:  166deg 36% 52%;
+        ...................
+        --color-bkg:  221deg 26% 21%;
+        
+        --color-filler: 219deg 37%  17%;
+       
+*/
+      }
+
+  }
